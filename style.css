@@ -1,3 +1,20 @@
 .primeiraDivClass{
     background-color: #22731474;    
 }
+
+.principal {
+    background: lightgray;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.columnLabelWithInput{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+}
