@@ -1,44 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ativiade HTML</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="Primeiradiv" class="primeiraDivClass">
-        <h1>Ativiade 01</h1>
-        <p>Primeira atividade de html da aula</p>
+    <div id="Principal" class="form">
+          <div class="Left">
+            <div class="insideL">
+                <!-- <img src="Imagens/DSC08252.jpg" alt="Descrição da imagem"> -->
+            </div>
+           
+        </div>
+
+
+        <div class="Right">
+            <div class="insideR">
+                <form action="">
+                    <h2 class="title">Cadastro</h2>
+
+                    <label for="">Nome</label>
+                    <div class="input">
+                        <input id="username" name="username" placeholder="Username" type="text">
+                    </div>
+
+                    <label for="email">Email</label>
+                    <div class="input">
+                        <input  id="useremail" name="useremail" placeholder="Email" type="text">
+                    </div>
+
+                    <label for="senha">Senha</label>
+                    <div class="input">
+                        <input id="userpass" name="userpass" placeholder="Senha" type="password">
+                    </div>
+                    <div id="btn">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+            </div>    
+            </form>
+        </div>
     </div>
     
-    <div class="principal">
-        <div>
-            <h2>Calculo de soma</h2>
-            <div class="columnLabelWithInput">   
-                <label for="num1">Numero 01</label>
-                <input type="number" placeholder=""/>
-                <br>
-                <br/>
-                <label for="num2">Numero 02</label>
-                <input type="number" placeholder=""/>
-            </div>           
-            
-        </div>
-            
-        <div>
-            <h2>Calculo de subtração</h2>
-            <div class="columnLabelWithInput">
-                <label for="num1">Numero 01</label>
-                <input type="number" placeholder=""/>
-                <br>
-                <br/>
-                <label for="num2">Numero 02</label>
-                <input type="number" placeholder=""/>
-            </div>
-            
-        </div> 
-    </div>
 
 </body>
 </html>
